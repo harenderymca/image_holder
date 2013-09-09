@@ -20,6 +20,7 @@ class YourModel < ActiveRecord::Base
   has_attached_image :ATTR_NAME, default: 'DEFAULT_IMAGE.png', scale: SIZE
 end
 ```
+- **default:** and **scale:** options are **optional**
 Example
 -------
 Lets say you have a User model with attr *name* and *logo*
